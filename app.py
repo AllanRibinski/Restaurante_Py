@@ -1,6 +1,5 @@
 import os
 
-#restaurantes = ["Pé de banha", "Coritiba feijoadas"]
 #Inserir dicionario em outra linguagem, chave valor
 restaurantes=[{'nome':'Bombaxa do boi gordo','categoria':'Churrascaria','ativo':True},
              {'nome':'WiskyDan','categoria':'Bebidas','ativo':False},
@@ -44,16 +43,18 @@ def listarRestaurantes():
         #modificar a maneira de listar para o dicionario
         nome_restaurante=restaurantes['nome']
         categoria=restaurante['categoria']
-        print(f'-{nome_restaurante}--{categoria}')
+        print(f'-{nome_restaurante}--{categoria}',--'{ativo}')
+        ativo = restaurante ['ativo']
         voltar_menu_principal()
        
 
 def cadastrar_novo_restaurante():
     nome_do_restaurante = input("Digite o nome do novo restaurante: ")
     categoria = input(f"digite a categoria do restaurante (nome_do_restaurante):")
-    dados_do_restaurante = {"nome":nome_do_restaurante, "categoria":categoria, "ativo":false
+    dados_do_restaurante = {"nome":nome_do_restaurante, "categoria":categoria, "ativo":False
     restaurantes.append(nome_do_restaurante)
     print(f"Você cadastrou o restaurante: {nome_do_restaurante}")
+    dados_do_restaurante = {"nome:" nome_do_restaurante, "categoria:", categoria_do_restaurante,"ativo:"False}
     voltar_menu_principal()
    
 
