@@ -50,6 +50,7 @@ def listarRestaurantes():
 
 def cadastrar_novo_restaurante():
     nome_do_restaurante = input("Digite o nome do novo restaurante: ")
+    categoria = input(f"digite a categoria do restaurante"(nome_do_restaurante))
     restaurantes.append(nome_do_restaurante)
     print(f"Você cadastrou o restaurante: {nome_do_restaurante}")
     voltar_menu_principal()
